@@ -13,7 +13,7 @@ INCLUDE(CheckCXXSymbolExists)
 
 # include dir
 
-find_path(KEYUTILS_INCLUDE_DIR keyutils.h NO_DEFAULT_PATH PATHS
+find_path(KEYUTILS_INCLUDE_DIR keyutils.h PATHS
   /usr/include
   /opt/local/include
   /usr/local/include
